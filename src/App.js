@@ -1,13 +1,16 @@
+import { Stack } from '@chakra-ui/react';
 import React from 'react';
-import {
-  Box,
-} from '@chakra-ui/react';
+import Navbar from './components/Navbar';
+import Banner from './modules/Book/Banner';
 
 function App() {
   return (
-      <Box textAlign="center" fontSize="xl">
-       salam
-      </Box>
+      <>
+        <Navbar/>
+        <Stack spacing={8} w="92%" mx="auto" mt={8}>
+          <Banner/>
+        </Stack>
+      </>
   );
 }
 
