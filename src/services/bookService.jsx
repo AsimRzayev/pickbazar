@@ -10,10 +10,28 @@ export async function getPopularBooks(){
    return req.data;
 }
 
-export async function getNewArrivalBooks(count){
+export async function getMostLikedBooks(){
 
-    let req=await axios.get("/new?start="+count,{
+    let req=await axios.get("/mostliked",{
+            baseURL:baseUrl 
+    })
+   return req.data;
+}
+
+
+
+export async function getNewArrivalBooks({pageParam=1}){
+
+    let req=await axios.get(`/new?page=${pageParam}`,{
         baseURL:baseUrl 
 })
-return req.data;
+
+
+const data= await req.data;
+
+const responseData = {
+    results:data.results,
+    next: data.next === null ? undefined : pageParam + 1,
+  };
+  return responseData;
 }

@@ -1,0 +1,59 @@
+async function getData({ pageParam = 1 }) {
+  const response = await fetch(
+    https://swapi.dev/api/people/?page=${pageParam}
+  );
+  if (!response.ok) {
+    throw new Error("Problem fetching data");
+  }
+  const dataFromServer = await response.json();
+
+  const data: CharactersPage = {
+    results: dataFromServer.results,
+    next: dataFromServer.next === null ? undefined : pageParam + 1,
+  };
+  return data;
+}
+
+function Test() {
+  const {
+    data,
+    error,
+    fetchNextPage,
+    hasNextPage,
+    isFetchingNextPage,
+    status,
+  } = useInfiniteQuery<CharactersPage, Error>("characters", getData, {
+    getNextPageParam: (lastPage) => lastPage.next,
+  });
+
+  if (status === "loading") {
+    return <div>...</div>;
+  }
+  if (status === "error") {
+    return <div>{error?.message}</div>;
+  }
+  return (
+    <div>
+      <div>
+        {data &&
+          data.pages.map((group, i) => (
+            <React.Fragment key={i}>
+              {group.results.map((character) => (
+                <div key={character.name}>{character.name}</div>
+              ))}
+            </React.Fragment>
+          ))}
+      </div>
+      <div>
+        {hasNextPage && (
+          <button
+            onClick={() => fetchNextPage()}
+            disabled={!hasNextPage || isFetchingNextPage}
+          >
+            {isFetchingNextPage ? "Loading ..." : "More"}
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}
