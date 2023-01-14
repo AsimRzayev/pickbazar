@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from "axios";
 
 let baseUrl="http://localhost:4000/books"
 
@@ -18,6 +18,22 @@ export async function getMostLikedBooks(){
    return req.data;
 }
 
+export async function getAuthors(){
+
+    let req=await axios.get("/authors",{
+            baseURL:baseUrl 
+    })
+   return req.data;
+}
+
+
+export async function getManufacturers(){
+
+    let req=await axios.get("/manufacturers",{
+            baseURL:baseUrl 
+    })
+   return req.data;
+}
 
 
 export async function getNewArrivalBooks({pageParam=1}){

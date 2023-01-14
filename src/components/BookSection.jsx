@@ -3,7 +3,7 @@ import React from 'react'
 
 const BookSection = ({heading,children}) => {
   return (
-    <Box py={4}>
+    <Box py={4}  >
         <Heading fontSize="3xl" fontWeight="medium" mb={6}>{heading}</Heading>
         {children}
     </Box>

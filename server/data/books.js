@@ -220,3 +220,146 @@ export const DNewBooks=[
         hasDiscount:true
     }
 ]
+
+export const DAuthors=[{
+    id:1,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1609%2FAuthor-img-800-%252810%2529.jpg&w=2048&q=75",
+    firstName:"Hikmet",
+    lastName:"Hasanov"
+},{
+    id:2,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1607%2FAuthor-img-800-%25281%2529.jpg&w=2048&q=75",
+    firstName:"Zahid",
+    lastName:"Qelenderov"
+},
+{
+    id:3,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1609%2FAuthor-img-800-%252810%2529.jpg&w=2048&q=75",
+    firstName:"Hikmet",
+    lastName:"Hasanov"
+},{
+    id:4,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1607%2FAuthor-img-800-%25281%2529.jpg&w=2048&q=75",
+    firstName:"Zahid",
+    lastName:"Qelenderov"
+},
+{
+    id:5,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1609%2FAuthor-img-800-%252810%2529.jpg&w=2048&q=75",
+    firstName:"Hikmet",
+    lastName:"Hasanov"
+},{
+    id:6,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1607%2FAuthor-img-800-%25281%2529.jpg&w=2048&q=75",
+    firstName:"Zahid",
+    lastName:"Qelenderov"
+},
+{
+    id:7,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1609%2FAuthor-img-800-%252810%2529.jpg&w=2048&q=75",
+    firstName:"Hikmet",
+    lastName:"Hasanov"
+},{
+    id:8,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1607%2FAuthor-img-800-%25281%2529.jpg&w=2048&q=75",
+    firstName:"Zahid",
+    lastName:"Qelenderov"
+},
+{
+    id:9,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1609%2FAuthor-img-800-%252810%2529.jpg&w=2048&q=75",
+    firstName:"Hikmet",
+    lastName:"Hasanov"
+},{
+    id:9,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1607%2FAuthor-img-800-%25281%2529.jpg&w=2048&q=75",
+    firstName:"Zahid",
+    lastName:"Qelenderov"
+},
+{
+    id:10,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1609%2FAuthor-img-800-%252810%2529.jpg&w=2048&q=75",
+    firstName:"Hikmet",
+    lastName:"Hasanov"
+},{
+    id:11,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1607%2FAuthor-img-800-%25281%2529.jpg&w=2048&q=75",
+    firstName:"Zahid",
+    lastName:"Qelenderov"
+},
+{
+    id:12,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1609%2FAuthor-img-800-%252810%2529.jpg&w=2048&q=75",
+    firstName:"Hikmet",
+    lastName:"Hasanov"
+},{
+    id:13,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1607%2FAuthor-img-800-%25281%2529.jpg&w=2048&q=75",
+    firstName:"Zahid",
+    lastName:"Qelenderov"
+},
+{
+    id:14,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1609%2FAuthor-img-800-%252810%2529.jpg&w=2048&q=75",
+    firstName:"Hikmet",
+    lastName:"Hasanov"
+},{
+    id:15,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1607%2FAuthor-img-800-%25281%2529.jpg&w=2048&q=75",
+    firstName:"Zahid",
+    lastName:"Qelenderov"
+},
+{
+    id:16,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1609%2FAuthor-img-800-%252810%2529.jpg&w=2048&q=75",
+    firstName:"Hikmet",
+    lastName:"Hasanov"
+},{
+    id:17,
+    imageUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1607%2FAuthor-img-800-%25281%2529.jpg&w=2048&q=75",
+    firstName:"Zahid",
+    lastName:"Qelenderov"
+}
+
+]
+
+export const DMan=[{
+    id:1,
+    logoUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1406%2FPublisher-logo-5.png&w=2048&q=75",
+    company:"Orient Academy",
+    facebook:"http://fb.com",
+    instagram:"http://fb.com",
+    twitter:"http://fb.com"
+},
+{
+    id:2,
+    logoUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1406%2FPublisher-logo-5.png&w=2048&q=75",
+    company:"Orient Academy",
+    facebook:"http://fb.com",
+    instagram:"http://fb.com",
+    twitter:"http://fb.com"
+},
+{
+    id:3,
+    logoUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1406%2FPublisher-logo-5.png&w=2048&q=75",
+    company:"Orient Academy",
+    facebook:"http://fb.com",
+    instagram:"http://fb.com",
+    twitter:"http://fb.com"
+},
+{
+    id:4,
+    logoUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1406%2FPublisher-logo-5.png&w=2048&q=75",
+    company:"Orient Academy",
+    facebook:"http://fb.com",
+    instagram:"http://fb.com",
+    twitter:"http://fb.com"
+},
+{
+    id:5,
+    logoUrl:"https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1406%2FPublisher-logo-5.png&w=2048&q=75",
+    company:"Orient Academy",
+    facebook:"http://fb.com",
+    instagram:"http://fb.com",
+    twitter:"http://fb.com"
+}]
